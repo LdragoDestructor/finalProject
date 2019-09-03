@@ -35,6 +35,8 @@ class NextViewController :UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         
+        print("ok")
+        
         let stackView = UIStackView(arrangedSubviews: [name,email,job])
         view.addSubview(stackView)
         stackView.spacing = 10

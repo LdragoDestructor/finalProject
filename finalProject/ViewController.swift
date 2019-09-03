@@ -92,6 +92,8 @@ import Firebase
             stackView.anchor(top: view.topAnchor, leading: view.leadingAnchor, bottom: nil, trailing: view.trailingAnchor,padding: .init(top: 100, left: 20, bottom: 0, right: 20),size:.init(width: 0, height: 200))
             stackView.spacing = 10
             
+            print("ok")
+
         }
         
         
